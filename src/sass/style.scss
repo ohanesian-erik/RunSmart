@@ -3,13 +3,21 @@
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
-@import 'blocks/media';
+@import 'blocks/advantages';
+@import 'base/media';
 
 * {
-    font-family: 'Museo Sans', sans-serif;
+	font-family: 'Museo Sans', sans-serif;
 }
 
 .container {
-    max-width: 950px;
-    margin: 0 auto;
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+.title {
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	color: #0d0d0d;
 }
