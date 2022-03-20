@@ -7,4 +7,12 @@
 		font-size: 20px;
 		color: #fff;
 	}
+	.error {
+		border: 1px solid $red-color;
+	}
+	label.error {
+		color: $red-color;
+		border: none;
+		margin-bottom: 15px;
+	}
 }
