@@ -5,13 +5,13 @@ $(document).ready(function () {
         nextArrow: '<button type="button" class="slick-next"><img src="../icons/right-arrow.png"></button>',
 		responsive: [
 			{
-			  breakpoint: 768,
+			  breakpoint: 992,
 			  settings: {
-				  dots: true,
-				  arrows: false
+				arrows: false,
+				dots: true
 			  }
 			}
-		  ]
+		]
 	});
 
 	$('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
