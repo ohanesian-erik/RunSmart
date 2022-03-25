@@ -39,7 +39,7 @@
 	&__content {
         display: none;
 		margin-top: 60px;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
         &_active {
             display: flex;

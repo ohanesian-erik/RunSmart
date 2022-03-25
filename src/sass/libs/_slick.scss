@@ -89,6 +89,8 @@
 .slick-slide img
 {
     display: block;
+    width: 90%;
+    margin: 0 auto;
 }
 .slick-slide.slick-loading img
 {
@@ -116,4 +118,24 @@
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+.slick-dots {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    button {
+        display: none;
+    }
+    li {
+        width: 10px;
+        height: 10px;
+        margin: 10px 10px;
+        border-radius: 100%;
+        background: #919191;
+    }
+    li.slick-active {
+        background: #C70101;
+    }
 }
